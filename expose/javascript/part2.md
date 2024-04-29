@@ -47,4 +47,30 @@ D. student["Favorite Teacher"].name
 E. student.courseLoad[0]
 
 ### 13. 
+A. '32', because + concatenates since string is detected
+B. 1, since - is only a math operation, and '3' can be converted to make sense
+C. 3, null converted to 0 since mathematical operation is implied (3 + ...)
+D. '3null', null converted to 'null' because string concatenation is implied.
+E. 4, true is converted to 1 (bools can be 0, 1) since mathematical operation is implied (... + 3)
+F. 0, false and null can both be converted to numeric (0 and 0), so because of this the + operator is used as
+a plus, since that is the only thing that makes sense in this context.
+G. '3undefined', same reason as D
+H. NaN, using - must mean doing math, and undefined will be NaN in every situation, and
+any operation on NaN is NaN.
+
+### 14.
+A. true, since diff types, strings become nums and 2 > 1
+B. false, since both strings, alphabet comparison happens, and '1' > '2'
+C. true, same reason as A, 1 == 1
+D. false, === means no type conversion
+E. false, true = 1 and 1 != 2
+F. true, Boolean(2) = true, and true = true
+
+### 15.
+== is the loose equality operator, which allows for types to change in order to fit the comparison context naturally. === however, is strict, and does not allow for type coersion, and will return false for any two differing types.
+
+### 16.
+Code in part2-question16.js
+
+
 
