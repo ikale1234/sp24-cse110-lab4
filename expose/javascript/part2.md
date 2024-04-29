@@ -39,4 +39,12 @@ Error due to the const violations occuring in the for loop (lines 6 - 9). Line 1
 ### 11.
 Error due to the const violations occuring in the for loop (lines 6 - 9). Line 14 is never reached.
 
+### 12.
+A. student.name
+B. student["Grad Year"]
+C. student.greeting()
+D. student["Favorite Teacher"].name
+E. student.courseLoad[0]
+
+### 13. 
 
