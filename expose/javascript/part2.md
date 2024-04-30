@@ -72,5 +72,11 @@ F. true, Boolean(2) = true, and true = true
 ### 16.
 Code in part2-question16.js
 
+### 17.
+It returns [2, 4, 6]. Modify array goes through each element of an array and changes it by passing
+it through the callback function. This callback returns the double of its input, therefore
+doubling each element of the array [1, 2, 3].
+
+
 
 
