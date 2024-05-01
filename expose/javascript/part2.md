@@ -77,6 +77,7 @@ It returns [2, 4, 6]. Modify array goes through each element of an array and cha
 it through the callback function. This callback returns the double of its input, therefore
 doubling each element of the array [1, 2, 3].
 
-
+### 18.
+Code in part2-question18.js
 
 
